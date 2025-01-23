@@ -1,6 +1,6 @@
-# Chall - Your Challenge Title
+# Chall - GadgetQuest
 
-> A brief description of the challenge
+> Return to Sender !
 
 ## Type
 
@@ -9,13 +9,13 @@
 
 ## Designer(s)
 
-- Ada Lovelace
-- Barbara Liskov
+- William Mailhot
 
 ## Description
 
-A high-level overview intended to clarify the concept and intuition behind the challenge, outlining its educational
-goals and the skills it aims to test in participants.
+A challenge focused on ROP chaining. This challenge is intended for beginners and should be easily exploited. 
+
+**Will add more details to this once I figure out a theme**
 
 **IMPORTANT:** This description will **NOT** be shared with participants.
 
@@ -23,16 +23,6 @@ goals and the skills it aims to test in participants.
 
 - `pwn`
 - `re`
-- `web`
-- `stegano`
-- `env`
-- `crypto`
-- `osint`
-- `web3`
-- `ai`
-- `android`
-- `auto`
-- `misc`
 
 ---
 
