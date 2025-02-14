@@ -1,6 +1,6 @@
-# Chall - GadgetQuest
+# Chall - Leak and Launch
 
-> Return to Sender !
+> Follow the chirps
 
 ## Type
 
@@ -13,9 +13,7 @@
 
 ## Description
 
-A challenge focused on ROP chaining. This challenge is intended for beginners and should be easily exploited. 
-
-**Will add more details to this once I figure out a theme**
+A challenge focused on bypassing Canary protection to then overwrite $eip and grab a shell
 
 **IMPORTANT:** This description will **NOT** be shared with participants.
 
