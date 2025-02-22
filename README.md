@@ -1,11 +1,11 @@
-# Chall - Leak and Launch
+# Chall - Formatting Is Weird
 
-> Follow the chirps
+> The PIE was a lie
 
 ## Type
 
-- [X] **OFF**line
-- [ ] **ON**line
+- [] **OFF**line
+- [X] **ON**line
 
 ## Designer(s)
 
@@ -13,7 +13,11 @@
 
 ## Description
 
-A challenge focused on bypassing Canary protection to then overwrite $eip and grab a shell
+A challenge which focuses on format string vulnerabilities as well as buffer overflow. 
+
+PIE and NX are enabled as well as a simple custom canary stack protection.
+
+Use the vulnerability to leak the PIE base.
 
 **IMPORTANT:** This description will **NOT** be shared with participants.
 
