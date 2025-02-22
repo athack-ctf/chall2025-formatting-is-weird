@@ -1,7 +1,7 @@
 FROM ubuntu:latest
 
 RUN apt-get update && apt-get upgrade -y
-RUN apt-get install -y socat gcc gcc-multilib sudo adduser
+RUN apt-get install -y socat adduser
 
 RUN adduser --disabled-password --gecos '' pwn
 RUN chown -R root:pwn /home/pwn/
@@ -13,6 +13,7 @@ RUN export TERM=xterm
 
 WORKDIR /home/pwn/
 
+# Copy a known libc version. This will make it easier to test using the exploit.py script
 COPY libc.so.6 /usr/lib/x86_64-linux-gnu/
 COPY pwnme /home/pwn/
 COPY flag.txt /home/pwn/
