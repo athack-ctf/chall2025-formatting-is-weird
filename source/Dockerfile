@@ -13,6 +13,7 @@ RUN export TERM=xterm
 
 WORKDIR /home/pwn/
 
+COPY libc.so.6 /usr/lib/x86_64-linux-gnu/
 COPY pwnme /home/pwn/
 COPY flag.txt /home/pwn/
 
