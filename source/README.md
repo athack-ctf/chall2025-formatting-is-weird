@@ -1,6 +1,10 @@
 # Building Your Challenge
 
-## All that is needed is a quick docker build .
+## All that is needed is to build the docker container: 
+
+```
+docker build .
+```
 
 ## DO NOT BUILD FROM SOURCE CODE. 
 
