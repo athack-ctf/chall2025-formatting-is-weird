@@ -13,11 +13,16 @@
 
 ## Description
 
-A challenge which focuses on format string vulnerabilities as well as buffer overflow. 
+This challenge focuses on a format string vulnerability which then leads to information disclosure about PIE. 
 
-PIE and NX are enabled as well as a simple custom canary stack protection.
+We can combine our findings of the PIE base and use the buffer overflow vulnerability to calculate the address of libc using a simple ROP chain.
 
-Use the vulnerability to leak the PIE base.
+This then gives us access to call system("/bin/sh")
+
+### Protections used
+- Stack is not executable
+- PIE is enabled
+- Very simple custom stack protection
 
 **IMPORTANT:** This description will **NOT** be shared with participants.
 
