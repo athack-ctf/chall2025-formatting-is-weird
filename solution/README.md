@@ -1,8 +1,9 @@
 # How to Solve the Challenge?
 
-Provide reproducible steps to solve the challenge. This can include:
+`exploit.py` provides a working solution to the challenge with comments giving a high-level overview of the exploit process.
 
-- Runnable code (e.g., `PoC.py`)
+This solution
+
 - A Bash script or a sequence of commented commands
 - Well-explained instructions
 - ...
