@@ -15,4 +15,4 @@ This can be changed inside the Dockerfile.
 ### The pre-built binary is used in the docker container and is also given to the participant.
 ### This pre-built version includes known offsets for the solution, exploit.py, to work.
 
-### I have only included the source code and build script for archival purposed
+### I have only included the source code and build script for archival purposes
