@@ -1,14 +1,8 @@
 # Building Your Challenge
 
-## You may deploy the challenge by building the container: 
+## Quick and easy docker compose up.
 
-```
-docker build .
-```
-
-The docker container exposes port **10001** for the client connection. 
-
-This can be changed inside the Dockerfile.
+The container binds port 2025 to the services exposed port 10001. This can be changed inside the docker-compose file.
 
 ## DO NOT BUILD FROM SOURCE CODE. 
 

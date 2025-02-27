@@ -1,0 +1,6 @@
+services:
+  pwn:
+    build: .
+    image: chall2025-formatting-is-weird
+    ports:
+      - "2025:10001"
