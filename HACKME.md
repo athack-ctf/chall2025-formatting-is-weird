@@ -1,1 +1,1 @@
-Jester AI is known for reinventing the wheel in an attempt to add extra security layers to his source code. His implementations may not be the most effective, but he believes they're sufficient to keep the average person at bay.
+Jester AI is known for reusing code he found online in an effort to enhance his source code's security. His implementations may not be the most effective, but he believes they're sufficient to keep the average person at bay.
