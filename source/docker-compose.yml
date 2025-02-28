@@ -1,6 +1,8 @@
+version: '3.7'
+
 services:
-  pwn:
+  formatting-is-weird:
     build: .
-    image: chall2025-formatting-is-weird
+    image: athack-ctf/chall2025-formatting-is-weird
     ports:
       - "2025:10001"
