@@ -14,9 +14,9 @@ flags:
     data: "case_insensitive"
 
 tags:
-
+  - tcp
 files:
-    - offline-artifacts/pwnme
+  - offline-artifacts/pwnme
 
 state: visible
 
