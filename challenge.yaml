@@ -1,0 +1,23 @@
+name: "Formatting is Weird"
+author: "William Mailhot"
+category: Pwn
+description: |
+    Jester AI is known for reusing code he found online in an effort to enhance his source code's security. His implementations may not be the most effective, but he believes they're sufficient to keep the average person at bay.
+    
+value: 600
+
+type: standard
+
+flags:
+  - type: "static"
+    content: "ATHACKCTF{f0r607_70_f0rm47_my_57r1n65}"
+    data: "case_insensitive"
+
+tags:
+
+files:
+    - offline-artifacts/pwnme
+
+state: visible
+
+version: "0.1"
