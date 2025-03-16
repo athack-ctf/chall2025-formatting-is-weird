@@ -1,7 +1,7 @@
+version: '3.7'
 services:
   formatting-is-weird:
-    build: .
     image: athack-ctf/chall2025-formatting-is-weird:latest
+    build: .
     ports:
     - 52027:10001
-version: '3.7'
