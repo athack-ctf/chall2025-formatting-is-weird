@@ -1,1 +1,0 @@
-Jester AI is known for reusing code he found online in an effort to enhance his source code's security. His implementations may not be the most effective, but he believes they're sufficient to keep the average person at bay.

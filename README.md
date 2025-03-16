@@ -1,32 +1,69 @@
-# Chall - Formatting Is Weird
+# @HACK 2025: Formatting is Weird
 
-> The PIE was a lie
+> Authored by [William Mailhot](https://github.com/WilliamMailhot).
 
-## Type
+- **Category**: `Pwn`
+- **Value**: `600 points`
+- **Tags**: `tcp`
 
-- [ ] **OFF**line
-- [X] **ON**line
+> Jester AI is known for reusing code he found online in an effort to enhance his source code's security. His implementations may not be the most effective, but he believes they're sufficient to keep the average person at bay.
+> 
 
-## Designer
+## Files
+- **[Download: pwnme](https://github.com/athack-ctf/chall2025-formatting-is-weird/raw/refs/heads/main/offline-artifacts/pwnme)**
 
-- William Mailhot
+## Access a dockerized instance
 
-## Description
+Run challenge container using docker compose
+```
+docker compose up -d
+```
+Connect to the TCP socket (e.g., using nc command)
+```
+nc localhost 52027 
+```
+<details>
+<summary>
+How to stop/restart challenge?
+</summary>
 
-This challenge focuses on a format string vulnerability which then leads to information disclosure about PIE. 
+To stop the challenge run
+```
+docker compose stop
+```
+To restart the challenge run
+```
+docker compose restart
+```
 
-We can combine our findings of the PIE base and use the buffer overflow vulnerability to calculate the address of libc using a simple ROP chain.
+</details>
 
-This then gives us access to call system("/bin/sh")
 
-### Protections used
-- Stack is not executable
-- PIE is enabled
-- Very simple custom stack protection
+## Reveal Flag
 
-**IMPORTANT:** This description will **NOT** be shared with participants.
+Did you try solving this challenge?
+<details>
+<summary>
+Yes
+</summary>
 
-## Category
+Did you **REALLY** try solving this challenge?
 
-- `pwn`
-- `re`
+<details>
+<summary>
+Yes, I promise!
+</summary>
+
+Flag: `ATHACKCTF{f0r607_70_f0rm47_my_57r1n65}`
+
+</details>
+</details>
+
+
+---
+
+## About @HACK
+[@HACK](https://athackctf.com/) is an annual CTF (Capture The Flag) competition hosted by [HEXPLOIT ALLIANCE](https://hexploit-alliance.com/) and [TECHNATION](https://technationcanada.ca/) at Concordia University in Montreal, Canada.
+
+---
+[Check more challenges from @HACK 2025](https://github.com/athack-ctf/AtHackCTF-2025-Challenges).
